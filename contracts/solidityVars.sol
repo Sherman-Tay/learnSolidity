@@ -1,4 +1,4 @@
-pragma solidity ^0.7.4;
+pragma solidity ^0.5.16;
 
 contract WorkingVariables{
     uint256 public myUint;

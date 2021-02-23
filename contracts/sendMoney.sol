@@ -1,4 +1,4 @@
-pragma solidity ^0.7.4;
+pragma solidity ^0.5.16;
 
 contract sendMoney {
     uint public balanceReceived;
@@ -19,7 +19,7 @@ contract sendMoney {
 
     function withdrawMoneyTo(address payable _to) public{
         _to.transfer(this.getBalance());
-    };
+    }
 
 }
 

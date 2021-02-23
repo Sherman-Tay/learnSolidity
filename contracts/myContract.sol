@@ -1,4 +1,4 @@
-pragma solidity ^0.7.4;
+pragma solidity ^0.5.16;
 
 contract MyContract{
     // storage vars, events, modifiers, functions
