@@ -1,0 +1,359 @@
+{
+    "contractName": "sendMoney",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "balanceReceived",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "getBalance",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "receiveMoney",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.7.4+commit.3f05b770\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"balanceReceived\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"receiveMoney\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol\":\"sendMoney\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol\":{\"keccak256\":\"0xbc2b7ad590548b2f331228601ec1317e2c00b5fb6c69a47848863da1d6324420\",\"urls\":[\"bzz-raw://67418a1ce49fb054f52def357448748f2bb3e153d90c2289fb4521e76d7edc74\",\"dweb:/ipfs/QmWMHqqoZghZ8zfrJc4o7DEYKpZs6KZPqzTz45X8an9gUM\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060bd8061001f6000396000f3fe60806040526004361060305760003560e01c806312065fe014603557806352a90c421460595780636d26ec1814606b575b600080fd5b348015604057600080fd5b5060476073565b60408051918252519081900360200190f35b348015606457600080fd5b5060476077565b6071607d565b005b4790565b60005481565b600080543401905556fea2646970667358221220fb21f612ff1602455ab382ea1b878e6bac71caa05dcbda7bb9a24aacebace09264736f6c63430007040033",
+    "deployedBytecode": "60806040526004361060305760003560e01c806312065fe014603557806352a90c421460595780636d26ec1814606b575b600080fd5b348015604057600080fd5b5060476073565b60408051918252519081900360200190f35b348015606457600080fd5b5060476077565b6071607d565b005b4790565b60005481565b600080543401905556fea2646970667358221220fb21f612ff1602455ab382ea1b878e6bac71caa05dcbda7bb9a24aacebace09264736f6c63430007040033",
+    "sourceMap": "27:259:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "27:259:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;182:95;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;53:27;;;;;;;;;;;;;:::i;89:85::-;;;:::i;:::-;;182:95;248:21;182:95;:::o;53:27::-;;;;:::o;89:85::-;138:15;:28;;157:9;138:28;;;89:85::o",
+    "sourcePath": "c:/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.7.4+commit.3f05b770"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol",
+        "exportedSymbols": {
+            "sendMoney": [
+                25
+            ]
+        },
+        "id": 26,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.7",
+                    ".4"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 25,
+                "linearizedBaseContracts": [
+                    25
+                ],
+                "name": "sendMoney",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "52a90c42",
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "balanceReceived",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 25,
+                        "src": "53:27:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "53:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "127:47:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 9,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 6,
+                                            "name": "balanceReceived",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 3,
+                                            "src": "138:15:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "+=",
+                                        "rightHandSide": {
+                                            "expression": {
+                                                "id": 7,
+                                                "name": "msg",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": -15,
+                                                "src": "157:3:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_magic_message",
+                                                    "typeString": "msg"
+                                                }
+                                            },
+                                            "id": 8,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberName": "value",
+                                            "nodeType": "MemberAccess",
+                                            "src": "157:9:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "138:28:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 10,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "138:28:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "6d26ec18",
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "receiveMoney",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "110:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "127:0:0"
+                        },
+                        "scope": 25,
+                        "src": "89:85:0",
+                        "stateMutability": "payable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 23,
+                            "nodeType": "Block",
+                            "src": "230:47:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "expression": {
+                                            "arguments": [
+                                                {
+                                                    "id": 19,
+                                                    "name": "this",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": -28,
+                                                    "src": "256:4:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_contract$_sendMoney_$25",
+                                                        "typeString": "contract sendMoney"
+                                                    }
+                                                }
+                                            ],
+                                            "expression": {
+                                                "argumentTypes": [
+                                                    {
+                                                        "typeIdentifier": "t_contract$_sendMoney_$25",
+                                                        "typeString": "contract sendMoney"
+                                                    }
+                                                ],
+                                                "id": 18,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "lValueRequested": false,
+                                                "nodeType": "ElementaryTypeNameExpression",
+                                                "src": "248:7:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_type$_t_address_$",
+                                                    "typeString": "type(address)"
+                                                },
+                                                "typeName": {
+                                                    "id": 17,
+                                                    "name": "address",
+                                                    "nodeType": "ElementaryTypeName",
+                                                    "src": "248:7:0",
+                                                    "typeDescriptions": {}
+                                                }
+                                            },
+                                            "id": 20,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "kind": "typeConversion",
+                                            "lValueRequested": false,
+                                            "names": [],
+                                            "nodeType": "FunctionCall",
+                                            "src": "248:13:0",
+                                            "tryCall": false,
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            }
+                                        },
+                                        "id": 21,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "memberName": "balance",
+                                        "nodeType": "MemberAccess",
+                                        "src": "248:21:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "functionReturnParameters": 16,
+                                    "id": 22,
+                                    "nodeType": "Return",
+                                    "src": "241:28:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "12065fe0",
+                        "id": 24,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getBalance",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 13,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "201:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 16,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 15,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 24,
+                                    "src": "224:4:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 14,
+                                        "name": "uint",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "224:4:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "223:6:0"
+                        },
+                        "scope": 25,
+                        "src": "182:95:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 26,
+                "src": "27:259:0"
+            }
+        ],
+        "src": "0:1736:0"
+    },
+    "functionHashes": {
+        "balanceReceived()": "52a90c42",
+        "getBalance()": "12065fe0",
+        "receiveMoney()": "6d26ec18"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "37800",
+            "executionCost": "87",
+            "totalCost": "37887"
+        },
+        "external": {
+            "balanceReceived()": "998",
+            "getBalance()": "178",
+            "receiveMoney()": "20956"
+        }
+    }
+}
