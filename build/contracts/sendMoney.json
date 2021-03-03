@@ -65,25 +65,25 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"balanceReceived\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"receiveMoney\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"withdrawMoney\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"_to\",\"type\":\"address\"}],\"name\":\"withdrawMoneyTo\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/c/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol\":\"sendMoney\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/c/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol\":{\"keccak256\":\"0x6560391fe73619cb168f70ba83c08f95b2a93b35c2da26e1a8dd3d3ee6b67fea\",\"urls\":[\"bzz-raw://6ee236ca8647d30bf954155cf15cace2b5e9aae7cb26d7becb0f8487c121103d\",\"dweb:/ipfs/QmbsSKs8iZvzDYo6nAaj2v6vccR8xfpNHapeTCes9cBein\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610304806100206000396000f3fe60806040526004361061004a5760003560e01c80630ff8d8a51461004f57806312065fe0146100a057806352a90c42146100cb5780636d26ec18146100f6578063ac44600214610100575b600080fd5b34801561005b57600080fd5b5061009e6004803603602081101561007257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610117565b005b3480156100ac57600080fd5b506100b56101e1565b6040518082815260200191505060405180910390f35b3480156100d757600080fd5b506100e06101e9565b6040518082815260200191505060405180910390f35b6100fe6101ef565b005b34801561010c57600080fd5b50610115610200565b005b8073ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff166312065fe06040518163ffffffff1660e01b815260040160206040518083038186803b15801561017757600080fd5b505afa15801561018b573d6000803e3d6000fd5b505050506040513d60208110156101a157600080fd5b81019080805190602001909291905050509081150290604051600060405180830381858888f193505050501580156101dd573d6000803e3d6000fd5b5050565b600047905090565b60005481565b346000808282540192505081905550565b60003390508073ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff166312065fe06040518163ffffffff1660e01b815260040160206040518083038186803b15801561026557600080fd5b505afa158015610279573d6000803e3d6000fd5b505050506040513d602081101561028f57600080fd5b81019080805190602001909291905050509081150290604051600060405180830381858888f193505050501580156102cb573d6000803e3d6000fd5b505056fea265627a7a7231582061f16f3dcf84eaa91a583f0e1270699816fd5943f54ba96733ed69a546c2fada64736f6c63430005100032",
-  "deployedBytecode": "0x60806040526004361061004a5760003560e01c80630ff8d8a51461004f57806312065fe0146100a057806352a90c42146100cb5780636d26ec18146100f6578063ac44600214610100575b600080fd5b34801561005b57600080fd5b5061009e6004803603602081101561007257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610117565b005b3480156100ac57600080fd5b506100b56101e1565b6040518082815260200191505060405180910390f35b3480156100d757600080fd5b506100e06101e9565b6040518082815260200191505060405180910390f35b6100fe6101ef565b005b34801561010c57600080fd5b50610115610200565b005b8073ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff166312065fe06040518163ffffffff1660e01b815260040160206040518083038186803b15801561017757600080fd5b505afa15801561018b573d6000803e3d6000fd5b505050506040513d60208110156101a157600080fd5b81019080805190602001909291905050509081150290604051600060405180830381858888f193505050501580156101dd573d6000803e3d6000fd5b5050565b600047905090565b60005481565b346000808282540192505081905550565b60003390508073ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff166312065fe06040518163ffffffff1660e01b815260040160206040518083038186803b15801561026557600080fd5b505afa158015610279573d6000803e3d6000fd5b505050506040513d602081101561028f57600080fd5b81019080805190602001909291905050509081150290604051600060405180830381858888f193505050501580156102cb573d6000803e3d6000fd5b505056fea265627a7a7231582061f16f3dcf84eaa91a583f0e1270699816fd5943f54ba96733ed69a546c2fada64736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"balanceReceived\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"receiveMoney\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"withdrawMoney\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"_to\",\"type\":\"address\"}],\"name\":\"withdrawMoneyTo\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/c/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol\":\"sendMoney\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/c/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol\":{\"keccak256\":\"0x8e227dfd3df61b81115817cac0b57ba3d68d797fb0a34ec2824bd7ca3981bdc4\",\"urls\":[\"bzz-raw://e679a2ca97e5db204b4a75b43a78b5675caf4ec61ff1b9b0922da2feb24937da\",\"dweb:/ipfs/QmYxp8DpGgxeRnhgP7Q8c3LFJZUNd1H1QNCBw8YcTdiqj8\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610304806100206000396000f3fe60806040526004361061004a5760003560e01c80630ff8d8a51461004f57806312065fe0146100a057806352a90c42146100cb5780636d26ec18146100f6578063ac44600214610100575b600080fd5b34801561005b57600080fd5b5061009e6004803603602081101561007257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610117565b005b3480156100ac57600080fd5b506100b56101e1565b6040518082815260200191505060405180910390f35b3480156100d757600080fd5b506100e06101e9565b6040518082815260200191505060405180910390f35b6100fe6101ef565b005b34801561010c57600080fd5b50610115610200565b005b8073ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff166312065fe06040518163ffffffff1660e01b815260040160206040518083038186803b15801561017757600080fd5b505afa15801561018b573d6000803e3d6000fd5b505050506040513d60208110156101a157600080fd5b81019080805190602001909291905050509081150290604051600060405180830381858888f193505050501580156101dd573d6000803e3d6000fd5b5050565b600047905090565b60005481565b346000808282540192505081905550565b60003390508073ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff166312065fe06040518163ffffffff1660e01b815260040160206040518083038186803b15801561026557600080fd5b505afa158015610279573d6000803e3d6000fd5b505050506040513d602081101561028f57600080fd5b81019080805190602001909291905050509081150290604051600060405180830381858888f193505050501580156102cb573d6000803e3d6000fd5b505056fea265627a7a72315820a6776f9de187e30267a06efade83112943f06d24e358266bdbefc14c9bc5179c64736f6c63430005100032",
+  "deployedBytecode": "0x60806040526004361061004a5760003560e01c80630ff8d8a51461004f57806312065fe0146100a057806352a90c42146100cb5780636d26ec18146100f6578063ac44600214610100575b600080fd5b34801561005b57600080fd5b5061009e6004803603602081101561007257600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610117565b005b3480156100ac57600080fd5b506100b56101e1565b6040518082815260200191505060405180910390f35b3480156100d757600080fd5b506100e06101e9565b6040518082815260200191505060405180910390f35b6100fe6101ef565b005b34801561010c57600080fd5b50610115610200565b005b8073ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff166312065fe06040518163ffffffff1660e01b815260040160206040518083038186803b15801561017757600080fd5b505afa15801561018b573d6000803e3d6000fd5b505050506040513d60208110156101a157600080fd5b81019080805190602001909291905050509081150290604051600060405180830381858888f193505050501580156101dd573d6000803e3d6000fd5b5050565b600047905090565b60005481565b346000808282540192505081905550565b60003390508073ffffffffffffffffffffffffffffffffffffffff166108fc3073ffffffffffffffffffffffffffffffffffffffff166312065fe06040518163ffffffff1660e01b815260040160206040518083038186803b15801561026557600080fd5b505afa158015610279573d6000803e3d6000fd5b505050506040513d602081101561028f57600080fd5b81019080805190602001909291905050509081150290604051600060405180830381858888f193505050501580156102cb573d6000803e3d6000fd5b505056fea265627a7a72315820a6776f9de187e30267a06efade83112943f06d24e358266bdbefc14c9bc5179c64736f6c63430005100032",
   "sourceMap": "26:480:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:480:1;;;;;;;",
   "deployedSourceMap": "26:480:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;403:100;;8:9:-1;5:2;;;30:1;27;20:12;5:2;403:100:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;403:100:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;174:93;;8:9:-1;5:2;;;30:1;27;20:12;5:2;174:93:1;;;:::i;:::-;;;;;;;;;;;;;;;;;;;51:27;;8:9:-1;5:2;;;30:1;27;20:12;5:2;51:27:1;;;:::i;:::-;;;;;;;;;;;;;;;;;;;85:83;;;:::i;:::-;;277:120;;8:9:-1;5:2;;;30:1;27;20:12;5:2;277:120:1;;;:::i;:::-;;403:100;465:3;:12;;:31;478:4;:15;;;:17;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;478:17:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;478:17:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;478:17:1;;;;;;;;;;;;;;;;465:31;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;465:31:1;403:100;:::o;174:93::-;216:4;239:21;232:28;;174:93;:::o;51:27::-;;;;:::o;85:83::-;152:9;133:15;;:28;;;;;;;;;;;85:83::o;277:120::-;318:18;339:10;318:31;;360:2;:11;;:30;372:4;:15;;;:17;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;372:17:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;372:17:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;372:17:1;;;;;;;;;;;;;;;;360:30;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;360:30:1;277:120;:::o",
-  "source": "pragma solidity ^0.5.16;\n\ncontract sendMoney {\n    uint public balanceReceived;\n\n    function receiveMoney() public payable{\n        balanceReceived += msg.value;\n    }\n\n    function getBalance() public view returns(uint) {\n        return address(this).balance;\n    }\n    \n    function withdrawMoney() public{\n        address payable to = msg.sender;\n\n        to.transfer(this.getBalance());\n    }\n\n    function withdrawMoneyTo(address payable _to) public{\n        _to.transfer(this.getBalance());\n    }\n\n}\n\n// Available Accounts\n// ==================\n// (0) 0x655fDEd4A96e5036593C3e966aD9C93D299421E9 (100 ETH)\n// (1) 0x840fb44c02677FF87b11f219b8b00adcA0D9551D (100 ETH)\n// (2) 0x74346f1637E08B16cc8C81E3f5d313d930E7B0BF (100 ETH)\n// (3) 0x2b645a9A95E62b5d4373A953234707f69318F19D (100 ETH)\n// (4) 0xa8C592DDe1A416E7cd82B99e4f966092960Cf0C0 (100 ETH)\n// (5) 0x556B981eA1df92AD40Ed1ad642473fdd06297733 (100 ETH)\n// (6) 0xd1D95A6dE94993487095925635c3b787C9b6ACFb (100 ETH)\n// (7) 0xe136e7cb783627acA45e374B9011D8835aCfe1CC (100 ETH)\n// (8) 0xE96fa6cD54Aa9C910C1fA5E584bB84Cff8104177 (100 ETH)\n// (9) 0x9B0939F12bFBe967f8A5d28801f6C9d6F09E0644 (100 ETH)\n\n// Private Keys\n// ==================\n// (0) 0x3d007d1a164e73cfd5d67229189af2572664886bbc8f2c89f0dd8c468fcd8a8f\n// (1) 0x76fa5d3b918298359c71f85f47607c856f7129b2cd338c62b9e124aa8372db0a\n// (2) 0x597de93e6a21ef4b1fff26147e8c204bf6433b5f1301d4166beb7e61cd9f9f75\n// (3) 0x6e5a2e46738f91dee89fefc0e675e1acb36c51a106241096ee004b798fc48a73\n// (4) 0x41dad7bc65a4c7ef565e023773933a4aa5f9649c7394575aabbf21177e494cf8\n// (5) 0x8848f52f9c4f2c4f87d9d61d73bfdfc9af254fd77102473d7211f29e8ad250f2\n// (6) 0x007fb2c3fb466bd3c37a51b17293e7a751f3639ba198c3f141aea8285f616e95\n// (7) 0xc2c5e2cb5e186cda3d9e5b688d5d3a2c4ba1ee4419212aa20a0cee672a0ebe4c\n// (8) 0x9040de37e4810904cda512daf5867f535fb0a0fa1a42291b1175a6bb5348b643\n// (9) 0xd036a04aad728c63f2feb2c9a5bf48c4dd834b7b2eebe6bc6cc7a17e93538928",
+  "source": "pragma solidity ^0.5.16;\n\ncontract sendMoney {\n    uint public balanceReceived;\n\n    function receiveMoney() public payable{\n        balanceReceived += msg.value;\n    }\n\n    function getBalance() public view returns(uint) {\n        return address(this).balance;\n    }\n    \n    function withdrawMoney() public{\n        address payable to = msg.sender;\n\n        to.transfer(this.getBalance());\n    }\n\n    function withdrawMoneyTo(address payable _to) public{\n        _to.transfer(this.getBalance());\n    }\n\n}\n",
   "sourcePath": "/mnt/c/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol",
   "ast": {
     "absolutePath": "/mnt/c/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol",
     "exportedSymbols": {
       "sendMoney": [
-        84
+        122
       ]
     },
-    "id": 85,
+    "id": 123,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 30,
+        "id": 68,
         "literals": [
           "solidity",
           "^",
@@ -99,19 +99,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 84,
+        "id": 122,
         "linearizedBaseContracts": [
-          84
+          122
         ],
         "name": "sendMoney",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 32,
+            "id": 70,
             "name": "balanceReceived",
             "nodeType": "VariableDeclaration",
-            "scope": 84,
+            "scope": 122,
             "src": "51:27:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -120,7 +120,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 31,
+              "id": 69,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "51:4:1",
@@ -134,25 +134,25 @@
           },
           {
             "body": {
-              "id": 40,
+              "id": 78,
               "nodeType": "Block",
               "src": "123:45:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 38,
+                    "id": 76,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 35,
+                      "id": 73,
                       "name": "balanceReceived",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 32,
+                      "referencedDeclaration": 70,
                       "src": "133:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -165,18 +165,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 36,
+                        "id": 74,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 180,
+                        "referencedDeclaration": 137,
                         "src": "152:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
-                      "id": 37,
+                      "id": 75,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -196,32 +196,32 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 39,
+                  "id": 77,
                   "nodeType": "ExpressionStatement",
                   "src": "133:28:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 41,
+            "id": 79,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "receiveMoney",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 33,
+              "id": 71,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "106:2:1"
             },
             "returnParameters": {
-              "id": 34,
+              "id": 72,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "123:0:1"
             },
-            "scope": 84,
+            "scope": 122,
             "src": "85:83:1",
             "stateMutability": "payable",
             "superFunction": null,
@@ -229,7 +229,7 @@
           },
           {
             "body": {
-              "id": 51,
+              "id": 89,
               "nodeType": "Block",
               "src": "222:45:1",
               "statements": [
@@ -241,14 +241,14 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 47,
+                          "id": 85,
                           "name": "this",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 196,
+                          "referencedDeclaration": 153,
                           "src": "247:4:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_sendMoney_$84",
+                            "typeIdentifier": "t_contract$_sendMoney_$122",
                             "typeString": "contract sendMoney"
                           }
                         }
@@ -256,11 +256,11 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_sendMoney_$84",
+                            "typeIdentifier": "t_contract$_sendMoney_$122",
                             "typeString": "contract sendMoney"
                           }
                         ],
-                        "id": 46,
+                        "id": 84,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -273,7 +273,7 @@
                         },
                         "typeName": "address"
                       },
-                      "id": 48,
+                      "id": 86,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -287,7 +287,7 @@
                         "typeString": "address"
                       }
                     },
-                    "id": 49,
+                    "id": 87,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -301,36 +301,36 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 45,
-                  "id": 50,
+                  "functionReturnParameters": 83,
+                  "id": 88,
                   "nodeType": "Return",
                   "src": "232:28:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 52,
+            "id": 90,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getBalance",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 42,
+              "id": 80,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "193:2:1"
             },
             "returnParameters": {
-              "id": 45,
+              "id": 83,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 44,
+                  "id": 82,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 52,
+                  "scope": 90,
                   "src": "216:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -339,7 +339,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 43,
+                    "id": 81,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "216:4:1",
@@ -354,7 +354,7 @@
               ],
               "src": "215:6:1"
             },
-            "scope": 84,
+            "scope": 122,
             "src": "174:93:1",
             "stateMutability": "view",
             "superFunction": null,
@@ -362,21 +362,21 @@
           },
           {
             "body": {
-              "id": 68,
+              "id": 106,
               "nodeType": "Block",
               "src": "308:89:1",
               "statements": [
                 {
                   "assignments": [
-                    56
+                    94
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 56,
+                      "id": 94,
                       "name": "to",
                       "nodeType": "VariableDeclaration",
-                      "scope": 68,
+                      "scope": 106,
                       "src": "318:18:1",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -385,7 +385,7 @@
                         "typeString": "address payable"
                       },
                       "typeName": {
-                        "id": 55,
+                        "id": 93,
                         "name": "address",
                         "nodeType": "ElementaryTypeName",
                         "src": "318:15:1",
@@ -399,23 +399,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 59,
+                  "id": 97,
                   "initialValue": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 57,
+                      "id": 95,
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 180,
+                      "referencedDeclaration": 137,
                       "src": "339:3:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
                         "typeString": "msg"
                       }
                     },
-                    "id": 58,
+                    "id": 96,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -443,32 +443,32 @@
                           "argumentTypes": [],
                           "expression": {
                             "argumentTypes": null,
-                            "id": 63,
+                            "id": 101,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 196,
+                            "referencedDeclaration": 153,
                             "src": "372:4:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_sendMoney_$84",
+                              "typeIdentifier": "t_contract$_sendMoney_$122",
                               "typeString": "contract sendMoney"
                             }
                           },
-                          "id": 64,
+                          "id": 102,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "getBalance",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 52,
+                          "referencedDeclaration": 90,
                           "src": "372:15:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
                             "typeString": "function () view external returns (uint256)"
                           }
                         },
-                        "id": 65,
+                        "id": 103,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -492,18 +492,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 60,
+                        "id": 98,
                         "name": "to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 56,
+                        "referencedDeclaration": 94,
                         "src": "360:2:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 62,
+                      "id": 100,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -517,7 +517,7 @@
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 66,
+                    "id": 104,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -531,32 +531,32 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 67,
+                  "id": 105,
                   "nodeType": "ExpressionStatement",
                   "src": "360:30:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 69,
+            "id": 107,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "withdrawMoney",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 53,
+              "id": 91,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "299:2:1"
             },
             "returnParameters": {
-              "id": 54,
+              "id": 92,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "308:0:1"
             },
-            "scope": 84,
+            "scope": 122,
             "src": "277:120:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -564,7 +564,7 @@
           },
           {
             "body": {
-              "id": 82,
+              "id": 120,
               "nodeType": "Block",
               "src": "455:48:1",
               "statements": [
@@ -579,32 +579,32 @@
                           "argumentTypes": [],
                           "expression": {
                             "argumentTypes": null,
-                            "id": 77,
+                            "id": 115,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 196,
+                            "referencedDeclaration": 153,
                             "src": "478:4:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_sendMoney_$84",
+                              "typeIdentifier": "t_contract$_sendMoney_$122",
                               "typeString": "contract sendMoney"
                             }
                           },
-                          "id": 78,
+                          "id": 116,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "getBalance",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 52,
+                          "referencedDeclaration": 90,
                           "src": "478:15:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
                             "typeString": "function () view external returns (uint256)"
                           }
                         },
-                        "id": 79,
+                        "id": 117,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -628,18 +628,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 74,
+                        "id": 112,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 71,
+                        "referencedDeclaration": 109,
                         "src": "465:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 76,
+                      "id": 114,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -653,7 +653,7 @@
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 80,
+                    "id": 118,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -667,29 +667,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 81,
+                  "id": 119,
                   "nodeType": "ExpressionStatement",
                   "src": "465:31:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 83,
+            "id": 121,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "withdrawMoneyTo",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 72,
+              "id": 110,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 71,
+                  "id": 109,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 83,
+                  "scope": 121,
                   "src": "428:19:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -698,7 +698,7 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 70,
+                    "id": 108,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "428:15:1",
@@ -715,30 +715,30 @@
               "src": "427:21:1"
             },
             "returnParameters": {
-              "id": 73,
+              "id": 111,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "455:0:1"
             },
-            "scope": 84,
+            "scope": 122,
             "src": "403:100:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 85,
+        "scope": 123,
         "src": "26:480:1"
       }
     ],
-    "src": "0:1930:1"
+    "src": "0:507:1"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "/mnt/c/Users/sherm/coding_workspace/solidity/contracts/sendMoney.sol",
       "exportedSymbols": {
         "sendMoney": [
-          84
+          122
         ]
       }
     },
@@ -752,7 +752,7 @@
             ".16"
           ]
         },
-        "id": 30,
+        "id": 68,
         "name": "PragmaDirective",
         "src": "0:24:1"
       },
@@ -768,17 +768,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            84
+            122
           ],
           "name": "sendMoney",
-          "scope": 85
+          "scope": 123
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "balanceReceived",
-              "scope": 84,
+              "scope": 122,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -791,12 +791,12 @@
                   "name": "uint",
                   "type": "uint256"
                 },
-                "id": 31,
+                "id": 69,
                 "name": "ElementaryTypeName",
                 "src": "51:4:1"
               }
             ],
-            "id": 32,
+            "id": 70,
             "name": "VariableDeclaration",
             "src": "51:27:1"
           },
@@ -810,7 +810,7 @@
                 null
               ],
               "name": "receiveMoney",
-              "scope": 84,
+              "scope": 122,
               "stateMutability": "payable",
               "superFunction": null,
               "visibility": "public"
@@ -823,7 +823,7 @@
                   ]
                 },
                 "children": [],
-                "id": 33,
+                "id": 71,
                 "name": "ParameterList",
                 "src": "106:2:1"
               },
@@ -834,7 +834,7 @@
                   ]
                 },
                 "children": [],
-                "id": 34,
+                "id": 72,
                 "name": "ParameterList",
                 "src": "123:0:1"
               },
@@ -859,11 +859,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 32,
+                              "referencedDeclaration": 70,
                               "type": "uint256",
                               "value": "balanceReceived"
                             },
-                            "id": 35,
+                            "id": 73,
                             "name": "Identifier",
                             "src": "133:15:1"
                           },
@@ -885,36 +885,36 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 180,
+                                  "referencedDeclaration": 137,
                                   "type": "msg",
                                   "value": "msg"
                                 },
-                                "id": 36,
+                                "id": 74,
                                 "name": "Identifier",
                                 "src": "152:3:1"
                               }
                             ],
-                            "id": 37,
+                            "id": 75,
                             "name": "MemberAccess",
                             "src": "152:9:1"
                           }
                         ],
-                        "id": 38,
+                        "id": 76,
                         "name": "Assignment",
                         "src": "133:28:1"
                       }
                     ],
-                    "id": 39,
+                    "id": 77,
                     "name": "ExpressionStatement",
                     "src": "133:28:1"
                   }
                 ],
-                "id": 40,
+                "id": 78,
                 "name": "Block",
                 "src": "123:45:1"
               }
             ],
-            "id": 41,
+            "id": 79,
             "name": "FunctionDefinition",
             "src": "85:83:1"
           },
@@ -928,7 +928,7 @@
                 null
               ],
               "name": "getBalance",
-              "scope": 84,
+              "scope": 122,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -941,7 +941,7 @@
                   ]
                 },
                 "children": [],
-                "id": 42,
+                "id": 80,
                 "name": "ParameterList",
                 "src": "193:2:1"
               },
@@ -951,7 +951,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 52,
+                      "scope": 90,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -964,17 +964,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 43,
+                        "id": 81,
                         "name": "ElementaryTypeName",
                         "src": "216:4:1"
                       }
                     ],
-                    "id": 44,
+                    "id": 82,
                     "name": "VariableDeclaration",
                     "src": "216:4:1"
                   }
                 ],
-                "id": 45,
+                "id": 83,
                 "name": "ParameterList",
                 "src": "215:6:1"
               },
@@ -982,7 +982,7 @@
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 45
+                      "functionReturnParameters": 83
                     },
                     "children": [
                       {
@@ -1016,7 +1016,7 @@
                                 "attributes": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_sendMoney_$84",
+                                      "typeIdentifier": "t_contract$_sendMoney_$122",
                                       "typeString": "contract sendMoney"
                                     }
                                   ],
@@ -1027,7 +1027,7 @@
                                   "type": "type(address)",
                                   "value": "address"
                                 },
-                                "id": 46,
+                                "id": 84,
                                 "name": "ElementaryTypeNameExpression",
                                 "src": "239:7:1"
                               },
@@ -1037,36 +1037,36 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 196,
+                                  "referencedDeclaration": 153,
                                   "type": "contract sendMoney",
                                   "value": "this"
                                 },
-                                "id": 47,
+                                "id": 85,
                                 "name": "Identifier",
                                 "src": "247:4:1"
                               }
                             ],
-                            "id": 48,
+                            "id": 86,
                             "name": "FunctionCall",
                             "src": "239:13:1"
                           }
                         ],
-                        "id": 49,
+                        "id": 87,
                         "name": "MemberAccess",
                         "src": "239:21:1"
                       }
                     ],
-                    "id": 50,
+                    "id": 88,
                     "name": "Return",
                     "src": "232:28:1"
                   }
                 ],
-                "id": 51,
+                "id": 89,
                 "name": "Block",
                 "src": "222:45:1"
               }
             ],
-            "id": 52,
+            "id": 90,
             "name": "FunctionDefinition",
             "src": "174:93:1"
           },
@@ -1080,7 +1080,7 @@
                 null
               ],
               "name": "withdrawMoney",
-              "scope": 84,
+              "scope": 122,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1093,7 +1093,7 @@
                   ]
                 },
                 "children": [],
-                "id": 53,
+                "id": 91,
                 "name": "ParameterList",
                 "src": "299:2:1"
               },
@@ -1104,7 +1104,7 @@
                   ]
                 },
                 "children": [],
-                "id": 54,
+                "id": 92,
                 "name": "ParameterList",
                 "src": "308:0:1"
               },
@@ -1113,7 +1113,7 @@
                   {
                     "attributes": {
                       "assignments": [
-                        56
+                        94
                       ]
                     },
                     "children": [
@@ -1121,7 +1121,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "to",
-                          "scope": 68,
+                          "scope": 106,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "address payable",
@@ -1135,12 +1135,12 @@
                               "stateMutability": "payable",
                               "type": "address payable"
                             },
-                            "id": 55,
+                            "id": 93,
                             "name": "ElementaryTypeName",
                             "src": "318:15:1"
                           }
                         ],
-                        "id": 56,
+                        "id": 94,
                         "name": "VariableDeclaration",
                         "src": "318:18:1"
                       },
@@ -1162,21 +1162,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 180,
+                              "referencedDeclaration": 137,
                               "type": "msg",
                               "value": "msg"
                             },
-                            "id": 57,
+                            "id": 95,
                             "name": "Identifier",
                             "src": "339:3:1"
                           }
                         ],
-                        "id": 58,
+                        "id": 96,
                         "name": "MemberAccess",
                         "src": "339:10:1"
                       }
                     ],
-                    "id": 59,
+                    "id": 97,
                     "name": "VariableDeclarationStatement",
                     "src": "318:31:1"
                   },
@@ -1220,16 +1220,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 56,
+                                  "referencedDeclaration": 94,
                                   "type": "address payable",
                                   "value": "to"
                                 },
-                                "id": 60,
+                                "id": 98,
                                 "name": "Identifier",
                                 "src": "360:2:1"
                               }
                             ],
-                            "id": 62,
+                            "id": 100,
                             "name": "MemberAccess",
                             "src": "360:11:1"
                           },
@@ -1261,7 +1261,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "getBalance",
-                                  "referencedDeclaration": 52,
+                                  "referencedDeclaration": 90,
                                   "type": "function () view external returns (uint256)"
                                 },
                                 "children": [
@@ -1271,41 +1271,41 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 196,
+                                      "referencedDeclaration": 153,
                                       "type": "contract sendMoney",
                                       "value": "this"
                                     },
-                                    "id": 63,
+                                    "id": 101,
                                     "name": "Identifier",
                                     "src": "372:4:1"
                                   }
                                 ],
-                                "id": 64,
+                                "id": 102,
                                 "name": "MemberAccess",
                                 "src": "372:15:1"
                               }
                             ],
-                            "id": 65,
+                            "id": 103,
                             "name": "FunctionCall",
                             "src": "372:17:1"
                           }
                         ],
-                        "id": 66,
+                        "id": 104,
                         "name": "FunctionCall",
                         "src": "360:30:1"
                       }
                     ],
-                    "id": 67,
+                    "id": 105,
                     "name": "ExpressionStatement",
                     "src": "360:30:1"
                   }
                 ],
-                "id": 68,
+                "id": 106,
                 "name": "Block",
                 "src": "308:89:1"
               }
             ],
-            "id": 69,
+            "id": 107,
             "name": "FunctionDefinition",
             "src": "277:120:1"
           },
@@ -1319,7 +1319,7 @@
                 null
               ],
               "name": "withdrawMoneyTo",
-              "scope": 84,
+              "scope": 122,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1331,7 +1331,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_to",
-                      "scope": 83,
+                      "scope": 121,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address payable",
@@ -1345,17 +1345,17 @@
                           "stateMutability": "payable",
                           "type": "address payable"
                         },
-                        "id": 70,
+                        "id": 108,
                         "name": "ElementaryTypeName",
                         "src": "428:15:1"
                       }
                     ],
-                    "id": 71,
+                    "id": 109,
                     "name": "VariableDeclaration",
                     "src": "428:19:1"
                   }
                 ],
-                "id": 72,
+                "id": 110,
                 "name": "ParameterList",
                 "src": "427:21:1"
               },
@@ -1366,7 +1366,7 @@
                   ]
                 },
                 "children": [],
-                "id": 73,
+                "id": 111,
                 "name": "ParameterList",
                 "src": "455:0:1"
               },
@@ -1412,16 +1412,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 71,
+                                  "referencedDeclaration": 109,
                                   "type": "address payable",
                                   "value": "_to"
                                 },
-                                "id": 74,
+                                "id": 112,
                                 "name": "Identifier",
                                 "src": "465:3:1"
                               }
                             ],
-                            "id": 76,
+                            "id": 114,
                             "name": "MemberAccess",
                             "src": "465:12:1"
                           },
@@ -1453,7 +1453,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "getBalance",
-                                  "referencedDeclaration": 52,
+                                  "referencedDeclaration": 90,
                                   "type": "function () view external returns (uint256)"
                                 },
                                 "children": [
@@ -1463,53 +1463,53 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 196,
+                                      "referencedDeclaration": 153,
                                       "type": "contract sendMoney",
                                       "value": "this"
                                     },
-                                    "id": 77,
+                                    "id": 115,
                                     "name": "Identifier",
                                     "src": "478:4:1"
                                   }
                                 ],
-                                "id": 78,
+                                "id": 116,
                                 "name": "MemberAccess",
                                 "src": "478:15:1"
                               }
                             ],
-                            "id": 79,
+                            "id": 117,
                             "name": "FunctionCall",
                             "src": "478:17:1"
                           }
                         ],
-                        "id": 80,
+                        "id": 118,
                         "name": "FunctionCall",
                         "src": "465:31:1"
                       }
                     ],
-                    "id": 81,
+                    "id": 119,
                     "name": "ExpressionStatement",
                     "src": "465:31:1"
                   }
                 ],
-                "id": 82,
+                "id": 120,
                 "name": "Block",
                 "src": "455:48:1"
               }
             ],
-            "id": 83,
+            "id": 121,
             "name": "FunctionDefinition",
             "src": "403:100:1"
           }
         ],
-        "id": 84,
+        "id": 122,
         "name": "ContractDefinition",
         "src": "26:480:1"
       }
     ],
-    "id": 85,
+    "id": 123,
     "name": "SourceUnit",
-    "src": "0:1930:1"
+    "src": "0:507:1"
   },
   "compiler": {
     "name": "solc",
@@ -1517,7 +1517,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-02-23T16:32:56.031Z",
+  "updatedAt": "2021-03-03T04:51:49.965Z",
   "devdoc": {
     "methods": {}
   },
